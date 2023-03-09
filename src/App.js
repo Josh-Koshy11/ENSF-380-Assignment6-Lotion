@@ -1,5 +1,10 @@
 function App() {
-  return <h1>Lotion</h1>;
-}
+  return (
+  <>
+  <h1>Lotion</h1>
+  
+  </>
+  )
+};
 
 export default App;
