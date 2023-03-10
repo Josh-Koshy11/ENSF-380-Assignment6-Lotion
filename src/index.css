@@ -14,3 +14,81 @@ a {
   color: inherit;
   text-decoration: none;
 }
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+#subh {
+  color:gray;
+}
+button {
+  background-color: white;
+}
+#lefttoggle {
+  border: none;
+  cursor: pointer;
+  font-size: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin-left: 10px;
+  border: 2px;
+}
+button:hover {
+  background-color: black; /* Green */
+  color: white;
+}
+.contentpage {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+#sidebar {
+  width: 35vh;
+  border-right: 1px solid lightgray;
+
+}
+#sidebar #sidetext{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+#sidebar p{
+  font-weight: bold;
+  font-size: 25px;
+}
+#content{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+#content #refprompt {
+  padding: 50px;
+  font-size: 30px;
+  color: gray;
+}
+#newnote {
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+.contentpage #sidebar #buttoncontainer button{
+  border: none;
+  cursor: pointer;
+  width: 35vh;
+  height: 80px;
+  font-size: large;
+  text-align: left;
+  display: flex;
+  align-items: top;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
